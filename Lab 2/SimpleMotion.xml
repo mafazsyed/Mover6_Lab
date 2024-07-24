@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="Mover" RobotType="CPR_Mover6" GripperType="SRA_TFGripperDigital.xml" Software="CPRog V902-12-028" VelocitySetting="0" />
+    <Joint AbortCondition="false" Nr="1" Source="Numerical" velPercent="50" acc="40" smooth="20" a1="0.88" a2="-1.39" a3="1.87" a4="2.4" a5="73.1" a6="-2.64" e1="0" e2="0" e3="0" Descr="" />
+    <Joint AbortCondition="false" Nr="2" Source="Numerical" velPercent="50" acc="40" smooth="20" a1="0.88" a2="-2.46" a3="26.81" a4="3.03" a5="49.25" a6="-3.92" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="3" Position="100" Descr="" />
+    <Wait Nr="4" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="false" Nr="5" Source="Numerical" vel="50" acc="40" smooth="20" x="380.7" y="17.7" z="29.7" a="-176.29" b="5.99" c="175.35" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="6" Position="0" Descr="" />
+    <Wait Nr="7" Type="Time" Seconds="1" Descr="" />
+    <Relative AbortCondition="false" Nr="8" acc="40" smooth="20" MoType="cartbase" vel="50" x="0" y="0" z="200" e1="0" e2="0" e3="0" Descr="" />
+    <Relative AbortCondition="false" Nr="9" acc="40" smooth="20" MoType="joint" velPercent="50" a1="20" a2="0" a3="0" a4="0" a5="0" a6="0" e1="0" e2="0" e3="0" Descr="" />
+    <Relative AbortCondition="false" Nr="10" acc="40" smooth="20" MoType="carttool" vel="50" x="50" y="50" z="-50" e1="0" e2="0" e3="0" Descr="" />
+    <Joint AbortCondition="false" Nr="11" Source="Numerical" velPercent="50" acc="40" smooth="20" a1="0.88" a2="1.93" a3="12.7" a4="5.27" a5="69.69" a6="-4.66" e1="0" e2="0" e3="0" Descr="" />
+</Program>

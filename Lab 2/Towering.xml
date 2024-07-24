@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="Mover" RobotType="CPR_Mover6" GripperType="SRA_TFGripperDigital.xml" Software="CPRog V902-12-028" VelocitySetting="0" />
+    <Gripper Nr="1" Position="0" Descr="close gripper" />
+    <Wait Nr="2" Type="Time" Seconds="1" Descr="" />
+    <Joint AbortCondition="false" Nr="3" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="90" a2="-22.5" a3="70" a4="0" a5="45" a6="0" e1="0" e2="0" e3="0" Descr="Home" />
+    <Linear AbortCondition="False" Nr="4" Source="Numerical" vel="100" acc="100" smooth="0" x="0.01" y="144.02" z="224.88" a="-90" b="-2.5" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="5" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="332.81" z="205.39" a="-90" b="-2.5" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="6" Position="100" Descr="" />
+    <Wait Nr="7" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="8" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="329.25" z="140.12" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="9" Position="0" Descr="close gripper" />
+    <Wait Nr="10" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="11" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="333.28" z="216.53" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="12" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="333.28" z="216.53" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="13" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="325.52" z="38.71" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="14" Position="100" Descr="open gripper" />
+    <Wait Nr="15" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="16" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="330.61" z="155.24" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="17" Position="0" Descr="close gripper" />
+    <Wait Nr="18" Type="Time" Seconds="1" Descr="" />
+    <Joint AbortCondition="false" Nr="19" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="90" a2="-22.5" a3="70" a4="0" a5="45" a6="0" e1="0" e2="0" e3="0" Descr="final storage position" />
+    <Linear AbortCondition="False" Nr="20" Source="Numerical" vel="100" acc="100" smooth="0" x="0.01" y="144.02" z="224.88" a="-90" b="-2.5" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="21" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="332.81" z="205.39" a="-90" b="-2.5" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="22" Position="100" Descr="" />
+    <Wait Nr="23" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="24" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="329.25" z="110.1" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="25" Position="0" Descr="close gripper" />
+    <Wait Nr="26" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="27" Source="Numerical" vel="100" acc="100" smooth="0" x="-73.4" y="333.28" z="216.53" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="28" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="333.28" z="216.53" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="29" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="325.52" z="68.7" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="30" Position="100" Descr="open gripper" />
+    <Wait Nr="31" Type="Time" Seconds="1" Descr="" />
+    <Linear AbortCondition="False" Nr="32" Source="Numerical" vel="100" acc="100" smooth="0" x="83.48" y="330.67" z="186.72" a="-90" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Gripper Nr="33" Position="0" Descr="close gripper" />
+    <Wait Nr="34" Type="Time" Seconds="1" Descr="" />
+    <Joint AbortCondition="false" Nr="35" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="90" a2="-22.5" a3="70" a4="0" a5="45" a6="0" e1="0" e2="0" e3="0" Descr="final storage position" />
+</Program>

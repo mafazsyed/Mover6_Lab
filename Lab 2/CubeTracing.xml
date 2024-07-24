@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program>
+    <Header RobotName="Mover" RobotType="CPR_Mover6" GripperType="SRA_TFGripperDigital.xml" Software="CPRog V902-12-028" VelocitySetting="0" />
+    <Gripper Nr="1" Position="0" Descr="close gripper" />
+    <Joint AbortCondition="false" Nr="2" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="90" a2="-22.5" a3="70" a4="0" a5="45" a6="0" e1="0" e2="0" e3="0" Descr="final storage position" />
+    <Joint AbortCondition="False" Nr="3" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="97.78" a2="11.47" a3="33.93" a4="0.46" a5="47.08" a6="7.45" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="4" Source="Numerical" vel="100" acc="100" smooth="0" x="-165.86" y="250.4" z="90.07" a="-89.99" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="5" Source="Numerical" vel="100" acc="100" smooth="0" x="-127.89" y="353.65" z="100.92" a="-89.99" b="-2.5" c="180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="6" Source="Numerical" vel="100" acc="100" smooth="0" x="-14.73" y="353.67" z="100.92" a="-89.99" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Linear AbortCondition="False" Nr="7" Source="Numerical" vel="100" acc="100" smooth="0" x="-40.93" y="247.2" z="58.79" a="-89.99" b="-2.5" c="-180" e1="0" e2="0" e3="0" Descr="" />
+    <Joint AbortCondition="false" Nr="8" Source="Numerical" velPercent="100" acc="100" smooth="0" a1="90" a2="-22.5" a3="70" a4="0" a5="45" a6="0" e1="0" e2="0" e3="0" Descr="final storage position" />
+</Program>
