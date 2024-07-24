@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- values in mm and degree -->
+<Program>
+	<Header  RobotName="Mover" RobotType="CPR_Mover6" GripperType="SRA_TFGripperDigital.xml" Software="CPRog V902-10-042"/>
+<Joint Nr="0" a1="0.88" a2="-1.39" a3="1.87" a4="2.4" a5="73.1" a6="-2.64" e1="0" e2="0" e3="0" velPercent="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+<Joint Nr="1" a1="0.88" a2="-2.46" a3="26.81" a4="3.03" a5="49.25" a6="-3.92" e1="0" e2="0" e3="0" velPercent="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+<Gripper Nr="2" Position="100" Descr="" />
+<Wait Nr="3"  Type="Time" Seconds="1" Descr="" />
+<Linear Nr="4" x="380.7" y="17.7" z="29.7" a="-176.29" b="5.99" c="175.35" e1="0" e2="0" e3="0" vel="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+<Gripper Nr="5" Position="0" Descr="" />
+<Wait Nr="6"  Type="Time" Seconds="1" Descr="" />
+<Relative Nr="7" MoType="CartBase" x="0" y="0" z="200" a="0.0" b="0.0" c="0.0" vel="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+<Relative Nr="8" MoType="Joint" a1="20.0" a2="0.0" a3="0.0" a4="0.0" a5="0.0" a6="0.0" e1="0.0" e2="0.0" e3="0.0" velPercent="50" acc="40.0" smooth="20" AbortCondition="false" Descr="" />
+<Relative Nr="9" MoType="CartTool" x="50" y="50" z="-50" a="0.0" b="0.0" c="0.0" vel="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+<Joint Nr="10" a1="0.88" a2="1.93" a3="12.7" a4="5.27" a5="69.69" a6="-4.66" e1="0" e2="0" e3="0" velPercent="50" acc="40" smooth="20" AbortCondition="false" Descr="" />
+</Program>

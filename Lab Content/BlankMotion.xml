@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- values in mm and degree -->
+<Program>
+	<Header  RobotName="Mover" RobotType="CPR_Mover6" GripperType="SRA_TFGripperDigital.xml" Software="CPRog V902-10-042"/>
+</Program>
